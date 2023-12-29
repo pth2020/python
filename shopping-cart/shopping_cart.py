@@ -1,6 +1,6 @@
 #Shopping cart program:
 #Enables shoppers to shop online for food.
-#In the shopping cart, shopper can add items, remove items, view items,
+#In the shopping cart, shoppers can add items, remove items, view items,
 #view total cost, change quantities of items and finally check out.
 
 print("\n******************************************")
