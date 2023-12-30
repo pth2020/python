@@ -4,9 +4,10 @@
 
 def find_hcf(a, b):
     if a < b:
+        #we only need to check for a factor up to half of the number
         for i in range(1,int(b/2+1)):
-            if a % i == 0 and b % i == 0:
-                hcf = i
+            if a % i == 0 and b % i == 0: # a and b must be divisible by i
+                hcf = i #updates hcf when a bigger common factor is found
     elif a > b:
         for i in range(1,int(a/2+1)):
             if b % i == 0 and a % i == 0:
